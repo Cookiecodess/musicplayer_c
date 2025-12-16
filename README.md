@@ -1,5 +1,9 @@
 # Music player in C
 
+## Dependencies
+
+`miniaudio.h` is obtained from https://github.com/mackron/miniaudio
+
 ## Compiling `play.c`
 
 Use:
