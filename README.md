@@ -8,7 +8,7 @@ Use:
 gcc play.c -o play -ldl -lpthread -lm
 ```
 
-### What does the flags mean?
+### What do the flags mean?
 
 1. `-ldl` (Dynamic Loading Library)
 
@@ -40,7 +40,7 @@ gcc play.c -o play -ldl -lpthread -lm
 
 Gemini suggested changing the `config.periodSizeInMilliseconds` to 250 to increase the audio buffer size.
 
-That's `play_stable_O3` (also optimized with level-3 for good measure) but the song manages to survive much, much longer, but it also still ends up stuttering. This proves that increasing the audio buffer size helps with the problem though. The question now is just: what's the optimal audio buffer size?
+That's `play_stable_O3` (also optimized with level-3 for good measure) and with it, the song manages to survive much, much longer, but it also still ends up stuttering. This proves that increasing the audio buffer size helps with the problem though. The question now is just: what's the optimal audio buffer size?
 
 ### Gemini explains latency in audio programming
 
